@@ -1,4 +1,4 @@
-var timer = 20;
+var timer = 60;
 var score = 0;
 var hitNumber = 0; 
 
@@ -6,7 +6,7 @@ var hitNumber = 0;
 function makeBubble() {
   var bubbleContainer = document.querySelector("#pbtm"); 
   var clutter = "";
-  for (var i = 1; i <= 168; i++) {
+  for (var i = 1; i <= 119; i++) {
     var randomNum = Math.floor(Math.random() * 10); 
     clutter += `<div class="bubble">${randomNum}</div>`;
   }
